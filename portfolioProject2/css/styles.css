@@ -1,0 +1,334 @@
+
+
+/* ==========================
+   Layout Set-up 
+  ========================== */
+
+* { 
+  box-sizing: border-box;
+  
+}
+
+body{
+	background-color: #e6ffff;}
+.main-wrap{width: 90%;
+	background-color: #fff;}
+
+li,a {
+	text-decoration: none;
+	color: black;
+    font-weight: bold;
+}
+.main-nav a
+{
+	padding: 15px;
+	background-color: white;
+		height: 40px;
+		display: block
+}
+
+.name{font-family: "Lato", sans-serif;
+padding-left: 15px
+color: black;}
+
+h2,
+h3,
+p{
+	text-align: center;
+}
+
+header,
+footer{
+	padding: 20px;
+		width: 100%
+}
+
+.main-header{padding-top: 1.5em;}
+
+
+.name,
+.main-nav,
+.skills
+ {
+	text-align: center;
+	display: block;
+	margin: 30px auto;
+}
+
+.main-nav li,
+.skills li{
+
+	display: block;
+	margin: 10px auto;
+}
+
+
+.skills li a
+{
+	padding: 15px;
+    background-color: white;
+    height: 40px;
+    display: block;
+    margin: 10px 10px;
+    font-family: "Roboto", sans-serif
+}
+
+.intro-line,
+.profile-image,
+.main-wrap
+{
+	display: block;
+	width: 90%;
+	margin:auto;
+}
+
+.intro-line{
+	margin: 15px auto;
+}
+.col
+	{display: block;
+	margin: auto;
+	text-align: center;
+	max-width: 100%;
+    padding: 10px 10px;
+}
+
+.portfolio-image{
+	width: 50%
+}
+.contact{
+	display:block;
+	width: 75%;
+	margin: 10px auto
+}
+
+hr{
+	width: 90%;
+}
+
+#student-name{
+	float: left;
+	margin: 1em 1.5em;
+    font-size: 1.2rem;
+    
+}
+.top{
+	float: right;
+	margin: 1em 1.5em;
+    font-size: 1.2rem;
+    	
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+
+@media (max-width: 767px){
+
+	.footer-nav{
+	display: none;
+	}
+}
+
+
+
+  /* ==============================
+    Media Queries
+    ============================ */
+
+
+
+/*
+=================================================================
+================================================================
+				DESKTOP LAYOUT
+================================================================
+=================================================================*/
+
+ @media (min-width: 1024px) {
+
+		.name{float: left}
+		.main-nav
+		{float: right;
+			margin-top:-20px;
+			padding: 30px 40px;
+
+			}
+
+		.intro-line,
+		.profile-image{
+			display: block;
+			margin-right: -5px;
+			vertical-align: top;
+			padding-left:1em; /*gutters*/
+			padding-right:1em;  /*gutters*/
+			margin: 15px auto;
+
+		}
+
+		.intro-line{
+			font-size: 20px;
+			float: left;
+			width: 50%}
+
+		.profile-image{
+			float: right;
+			width: 40%}
+
+		.name,
+		.main-nav li
+		{
+			font-family: "Lato", sans-serif;
+			color: black;
+			padding-left: 15px;
+		}
+
+		/* MAIN layout*/
+
+		.main-wrap{
+			background-color: #fff;
+			text-align:center;
+			width: 90%; 
+			margin: auto;
+		    border: 1px solid lightgrey;
+			}
+
+
+		.portfolio-image{
+			
+			width:90%;}
+
+		.col{
+			display: inline-block;
+		  width: 30%;
+			background-color: #fff;
+			text-align: center;
+			margin-right: -5px;
+			vertical-align: top;
+			padding-left:1em;
+		padding-right:1em;
+		font-style: italic;
+		font-family: "Slabo+27", sans-serif;
+
+		}
+
+		#portfolio{text-align: center;
+		margin-top: 50px}
+
+		.portfolio.container {background-color: white;}
+
+		/*Contact*/
+
+		section{
+			text-align: center;
+		}
+
+		/*footer*/
+
+		.top{display: none;}
+
+		#student-name
+		{
+		float:left;
+		width: 30%;
+		display: inline;
+		padding-left:60px;
+		text-align: left;	
+		}
+
+
+
+		.footer-nav
+		{float: right;
+			margin-top:-10px;
+			padding: 30px 40px;
+		font-size:	0.7em;
+		margin-right:40px;
+			}
+
+		.footer-nav li{
+			display: inline;
+		    margin: 35px auto;
+		padding: 	5px
+		}
+
+		.clearfix::after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		  }
+		    
+}
+
+
+/*
+=================================================================
+================================================================
+				Tablet LAYOUT
+================================================================
+=================================================================*/
+
+ @media (min-width: 768px) {
+
+	 .main-nav li
+	{	text-align: center;
+		display: inline-block;
+		
+		}
+
+	.main-nav a{
+
+		background-color: inherit;}
+
+	.intro-line{text-align: left;
+	float: left;
+	font-style: initial;
+		width: 50%}
+	.first_content img{
+
+		float:right;
+		width: 40%
+	}
+	.main-wrap{display: inline;}
+
+
+
+	.portfolio-image{
+		
+		width:90%;}
+
+	.col{
+		display: inline-block;
+	  	width: 50%;
+		background-color: #fff;
+		text-align: center;
+		margin-right: -5px;
+		vertical-align: top;
+		padding-left:1em;
+		padding-right:1em;
+		font-style: italic;
+		font-family: "Slabo+27", sans-serif;
+
+	}
+
+	.top{
+		display: none;
+	}
+
+
+	.footer-nav{
+		float: right;
+		margin-top:-10px;
+		padding: 30px 40px;
+		
+		}
+
+	.footer-nav li{
+		display: inline;
+	    margin: 35px auto;
+		padding: 	5px
+	}
+
+}
