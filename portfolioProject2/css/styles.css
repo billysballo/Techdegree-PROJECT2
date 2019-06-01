@@ -124,7 +124,9 @@ hr{
   display: table;
   clear: both;
   }
-
+#portfolio{
+	padding-top: 30px;
+}
 @media (max-width: 767px){
 
 	.footer-nav{
@@ -137,6 +139,76 @@ hr{
   /* ==============================
     Media Queries
     ============================ */
+
+
+/*
+=================================================================
+================================================================
+				Tablet LAYOUT
+================================================================
+=================================================================*/
+
+ @media (min-width: 768px) {
+
+	 .main-nav li
+	{	text-align: center;
+		display: inline-block;
+		
+		}
+
+	.main-nav a{
+
+		background-color: inherit;}
+
+	.intro-line{text-align: left;
+	float: left;
+	font-style: initial;
+		width: 50%}
+	.first_content img{
+
+		float:right;
+		width: 40%
+	}
+
+
+
+	.portfolio-image{
+		
+		width:90%;}
+
+	.col{
+		display: inline-block;
+	  	width: 50%;
+		background-color: #fff;
+		text-align: center;
+		margin-right: -5px;
+		vertical-align: top;
+		padding-left:1em;
+		padding-right:1em;
+		font-style: italic;
+		font-family: "Slabo+27", sans-serif;
+
+	}
+
+	.top{
+		display: none;
+	}
+
+
+	.footer-nav{
+		float: right;
+		margin-top:-10px;
+		padding: 30px 40px;
+		
+		}
+
+	.footer-nav li{
+		display: inline;
+	    margin: 35px auto;
+		padding: 	5px
+	}
+
+}
 
 
 
@@ -196,23 +268,26 @@ hr{
 			}
 
 
-		.portfolio-image{
-			
-			width:90%;}
+		
 
-		.col{
-			display: inline-block;
-		  width: 30%;
-			background-color: #fff;
-			text-align: center;
-			margin-right: -5px;
-			vertical-align: top;
-			padding-left:1em;
+	.portfolio-image{
+		
+		width:90%;}
+
+	.col{
+		display: inline-block;
+	  	width: 30%;
+		background-color: #fff;
+		text-align: center;
+		margin-right: -5px;
+		vertical-align: top;
+		padding-left:1em;
 		padding-right:1em;
 		font-style: italic;
 		font-family: "Slabo+27", sans-serif;
 
-		}
+	}
+
 
 		#portfolio{text-align: center;
 		margin-top: 50px}
@@ -262,73 +337,3 @@ hr{
 		    
 }
 
-
-/*
-=================================================================
-================================================================
-				Tablet LAYOUT
-================================================================
-=================================================================*/
-
- @media (min-width: 768px) {
-
-	 .main-nav li
-	{	text-align: center;
-		display: inline-block;
-		
-		}
-
-	.main-nav a{
-
-		background-color: inherit;}
-
-	.intro-line{text-align: left;
-	float: left;
-	font-style: initial;
-		width: 50%}
-	.first_content img{
-
-		float:right;
-		width: 40%
-	}
-	.main-wrap{display: inline;}
-
-
-
-	.portfolio-image{
-		
-		width:90%;}
-
-	.col{
-		display: inline-block;
-	  	width: 50%;
-		background-color: #fff;
-		text-align: center;
-		margin-right: -5px;
-		vertical-align: top;
-		padding-left:1em;
-		padding-right:1em;
-		font-style: italic;
-		font-family: "Slabo+27", sans-serif;
-
-	}
-
-	.top{
-		display: none;
-	}
-
-
-	.footer-nav{
-		float: right;
-		margin-top:-10px;
-		padding: 30px 40px;
-		
-		}
-
-	.footer-nav li{
-		display: inline;
-	    margin: 35px auto;
-		padding: 	5px
-	}
-
-}
