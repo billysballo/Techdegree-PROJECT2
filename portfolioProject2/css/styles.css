@@ -12,12 +12,24 @@
 body{
 	background-color: #e6ffff;}
 .main-wrap{width: 90%;
+	max-width: 1200px;
 	background-color: #fff;}
 
 li,a {
 	text-decoration: none;
 	color: black;
     font-weight: bold;
+}
+
+/* visited link */
+
+
+a:hover {
+  color: darkblue;
+}
+
+.skills a:hover {
+  transform: scale(2, 1); ;
 }
 .main-nav a
 {
@@ -40,7 +52,8 @@ p{
 header,
 footer{
 	padding: 20px;
-		width: 100%
+		width: 100%;
+		max-width: 1200px;
 }
 
 .main-header{padding-top: 1.5em;}
@@ -66,7 +79,8 @@ footer{
 .skills li a
 {
 	padding: 15px;
-    background-color: white;
+    background-color: darkblue;
+    color: white;
     height: 40px;
     display: block;
     margin: 10px 10px;
@@ -79,6 +93,7 @@ footer{
 {
 	display: block;
 	width: 90%;
+	max-width: 1200px;
 	margin:auto;
 }
 
@@ -94,16 +109,19 @@ footer{
 }
 
 .portfolio-image{
-	width: 50%
+	width: 50%;
+	max-width: 1200px;
 }
 .contact{
 	display:block;
 	width: 75%;
-	margin: 10px auto
+	max-width: 1200px;
+	margin: 10px auto;
 }
 
 hr{
 	width: 90%;
+	max-width: 1200px;
 }
 
 #student-name{
@@ -149,6 +167,7 @@ hr{
 =================================================================*/
 
  @media (min-width: 768px) {
+
 
 	 .main-nav li
 	{	text-align: center;
@@ -220,6 +239,8 @@ hr{
 =================================================================*/
 
  @media (min-width: 1024px) {
+
+ 	p{font-size: 1.1em;}
 
 		.name{float: left;
 		    margin-left: 32px;}
