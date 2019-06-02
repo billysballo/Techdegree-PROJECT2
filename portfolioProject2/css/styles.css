@@ -235,15 +235,17 @@ hr{
 			margin-right: -5px;
 			vertical-align: top;
 			padding-left:1em; /*gutters*/
-			padding-right:1em;  /*gutters*/
-			margin: 15px auto;
+			padding-right:1.2em;  /*gutters*/
+			margin: 15px 30px;
 
 		}
+
+
 
 		.intro-line{
 			font-size: 20px;
 			float: left;
-			width: 50%}
+			width: 45%}
 
 		.profile-image{
 			float: right;
